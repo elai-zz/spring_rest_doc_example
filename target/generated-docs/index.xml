@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Person-service Getting Started Guide</title>
+<date></date>
+<author>
+<personname>
+<firstname>Jane</firstname>
+<surname>Doe</surname>
+</personname>
+</author>
+<authorinitials>JD</authorinitials>
+<revhistory>
+<revision>
+<date></date>
+<authorinitials>JD</authorinitials>
+<revremark>doctype: book</revremark>
+</revision>
+</revhistory>
+</info>
+<literallayout class="monospaced">:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:</literallayout>
+<literallayout class="monospaced">[introduction]
+= Introduction</literallayout>
+<literallayout class="monospaced">Person-service is a RESTful microservice for ...</literallayout>
+<literallayout class="monospaced">[[overview]]
+= Overview</literallayout>
+</article>

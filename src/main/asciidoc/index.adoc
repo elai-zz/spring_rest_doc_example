@@ -1,0 +1,16 @@
+= Person-service Getting Started Guide
+  Jane Doe;
+  :doctype: book
+  :icons: font
+  :source-highlighter: highlightjs
+  :toc: left
+  :toclevels: 4
+  :sectlinks:
+
+  [introduction]
+  = Introduction
+
+  Person-service is a RESTful microservice for ...
+
+  [[overview]]
+  = Overview
