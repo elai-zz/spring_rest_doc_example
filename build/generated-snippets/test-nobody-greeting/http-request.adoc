@@ -1,0 +1,6 @@
+[source,http]
+----
+GET /greeting?name=nobody HTTP/1.1
+Host: localhost
+
+----

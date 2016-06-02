@@ -46,7 +46,14 @@
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
                 <version>1.5.2</version>
-
+                <configuration>
+                    <sourceDirectory>src/main/asciidoc</sourceDirectory>
+                    <attributes>
+                        <snippets>build/generated-snippets</snippets>
+                    </attributes>
+                    <backend>html</backend>
+                    <baseDir>${basedir}</baseDir>
+                </configuration>
                 <executions>
                     <execution>
                         <id>output-html</id>
